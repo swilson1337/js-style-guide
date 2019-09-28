@@ -1,0 +1,126 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "camelcase": [
+            "error",
+            {
+                "properties": "never"
+            }
+        ],
+        "brace-style": [
+            "error",
+            "allman"
+        ],
+        "padded-blocks": [
+            "error",
+            "never"
+        ],
+        "operator-assignment": [
+            "error",
+            "always"
+        ],
+        "one-var": [
+            "error",
+            "never"
+        ],
+        "no-multi-spaces": [
+            "error"
+        ],
+        "yoda": [
+            "error",
+            "never"
+        ],
+        "eol-last": [
+            "error",
+            "always"
+        ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "comma-style": [
+            "error",
+            "last"
+        ],
+        "array-bracket-newline": [
+            "error",
+            "consistent"
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "array-element-newline": [
+            "error",
+            "consistent"
+        ],
+        "no-use-before-define": [
+            "error"
+        ],
+        "strict": [
+            "error",
+            "global"
+        ],
+        "no-useless-return": [
+            "error"
+        ],
+        "no-undef-init": [
+            "error"
+        ],
+        "default-case": [
+            "error"
+        ],
+        "dot-notation": [
+            "error"
+        ],
+        "no-else-return": [
+            "error"
+        ],
+        "curly": [
+            "error",
+            "all"
+        ],
+        "consistent-return": [
+            "error"
+        ],
+        "no-return-await": [
+            "error"
+        ],
+        "no-return-assign": [
+            "error",
+            "always"
+        ],
+        "function-call-argument-newline": [
+            "error",
+            "consistent"
+        ]
+    }
+}

@@ -120,10 +120,6 @@
         "no-return-assign": [
             "error",
             "always"
-        ],
-        "function-call-argument-newline": [
-            "error",
-            "consistent"
         ]
     }
 }
